@@ -51,7 +51,7 @@ export default function CatForm(props) {
                     </div>
                     <div className="form-group m-1">
                         <button className="btn btn-success" type='submit'>
-                            SEND IT, CHARLIE!
+                            Submit
                         </button>
                     </div>
                 </Form>

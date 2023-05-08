@@ -71,7 +71,7 @@ export default function ToDoForm(props) {
                     </Field>
                 </div>
                 <div className="form-group m-3">
-                    <button className="btn btn-success m-3" type='submit'>SEND IT, CHARLIE!</button>
+                    <button className="btn btn-success m-3" type='submit'>Submit</button>
                 </div>
             </Form>
         )}

@@ -1,14 +1,12 @@
 import React from 'react'
 import { Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-// import { GoChecklist } from 'react-icons/go'
 import { useAuth } from '../contexts/AuthContext'
 
 export default function Navigation() {
   const { currentUser } = useAuth()
   return (
     <Navbar expand='lg' variant='dark' bg='dark' className='p-1'> 
-        {/* <Navbar.Brand href='/'><GoChecklist /><span className="brand-text"> ReactJS ToDo</span></Navbar.Brand> */}
         <Navbar.Toggle />
         <Navbar.Collapse className='justify-content-end'>
             <Nav className='fs-4'>

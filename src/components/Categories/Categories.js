@@ -26,7 +26,7 @@ export default function Categories() {
 
   return (
     <section className="categories">
-      <article className="bg-purple p-4 mb-4">
+      <article className="bg-dark p-4 mb-4">
         <h1 className='text-center'>ReactJS ToDo Dashboard</h1>
       </article>
 
